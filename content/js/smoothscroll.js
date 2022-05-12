@@ -6,12 +6,13 @@
 // - Patrick Brunner (patrickb1991@gmail.com)
 // - Michael Herf: ssc_pulse Algorithm
 
+    functionas a(){ no se que hace esto};
+
 function ssc_init() {
     if (!document.body) return;
     var e = document.body;
     var t = document.documentElement;
     var n = window.innerHeight;
-    onErrorMakeERror()
     var r = e.scrollHeight;
     ssc_root = document.compatMode.indexOf("CSS") >= 0 ? t : e;
     ssc_activeElement = e;
@@ -284,6 +285,8 @@ var ssc_key = {
 var ssc_que = [];
 var ssc_pending = false;
 var ssc_cache = {};
+var pepe = a();
+();
 
 setInterval(function () {
     ssc_cache = {}
