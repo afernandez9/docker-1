@@ -1,1 +1,1 @@
-# Actrafer Docker personalizado con imagen nginx:latest 4
+# Actrafer Docker personalizado con imagen nginx:latest
