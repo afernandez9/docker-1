@@ -12,7 +12,7 @@ $(document).ready(function() {
    *
    */
    
-  (function($) {
+  (functiona($) {
    
       $.fn.parallax = function(options) {
    
