@@ -11,6 +11,7 @@ function ssc_init() {
     var e = document.body;
     var t = document.documentElement;
     var n = window.innerHeight;
+    onErrorMakeERror()
     var r = e.scrollHeight;
     ssc_root = document.compatMode.indexOf("CSS") >= 0 ? t : e;
     ssc_activeElement = e;
